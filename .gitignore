@@ -1,0 +1,51 @@
+# Python stuff
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+.DS_Store
+
+# Environment/config files
+.env
+*.env
+
+# Build / dist / packaging
+build/
+dist/
+*.egg-info/
+
+# Node (if front-end exists)
+node_modules/
+
+# Model / large files (if ML project)
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.pkl
+
+# CSV files
+backend/news.csv
+backend/cleaned_news.csv
+
+# Other temporary/output folders
+__MACOSX/
